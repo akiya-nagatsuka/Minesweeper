@@ -1,0 +1,26 @@
+﻿<Page x:ConnectionId='1'
+    x:Name="page"
+    x:Class="Minesweeper.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Minesweeper"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                               >
+
+    <Grid x:ConnectionId='2' x:Name="MainGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"  VerticalAlignment="Top"  RenderTransformOrigin="0.5,0.5" Orientation="Horizontal">
+            <Button x:ConnectionId='4'                     >Новая игра</Button>
+            <Button x:ConnectionId='5'                       >Настройки</Button>
+            <Button>Справка</Button>
+            <TextBlock x:ConnectionId='6' x:Name="textBlock1"/>
+        </StackPanel>
+        <Grid x:ConnectionId='3' x:Name="FieldGrid" Grid.Row="1"/>
+
+    </Grid>
+</Page>
+

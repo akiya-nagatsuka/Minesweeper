@@ -1,0 +1,1 @@
+C:\Users\Дмитрий Стахов\OneDrive\Documents\Minesweeper\Minesweeper\Minesweeper.csproj;x64
